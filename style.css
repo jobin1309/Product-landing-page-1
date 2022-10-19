@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran&family=Lato:wght@300&family=Poppins&family=Roboto:wght@500&family=Space+Grotesk&family=Ubuntu:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Lato;
+}
+
+nav {
+  display: flex;
+  overflow: hidden;
+  justify-content: flex-end;
+  height: 100px;
+  width: 100vw;
+  background-color: #0e1428;
+  color: white;
+  font-size: 1.2rem;
+}
+.logo {
+  display: flex;
+  margin-right: auto;
+  background-color: aliceblue;
+  margin-left: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+.logo h2 {
+  color: black;
+  margin-top: 30px;
+}
+
+.info ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 20px;
+  align-items: center;
+}
+.info li {
+  padding: 10px;
+  flex: 1;
+  font-size: 1.4rem;
+}
+
+.info a {
+  text-decoration: none;
+  color: white;
+}
+.info a:hover {
+  border-bottom: 2px solid white;
+  transform: scale(0.99);
+}
+.main input {
+  margin-left: 50px;
+  border: 1px solid black;
+}
+button {
+  height: 50px;
+  width: 100px;
+  background-color: #0e1428;
+  border-radius: 50px;
+  color: white;
+  font-size: 1.2rem;
+}
+button:hover {
+  transform: scale(0.97);
+}
+.showcase {
+  display: flex;
+  box-shadow: 0 0 10px black;
+  padding: 50px;
+}
+.showcase h1 {
+  flex: 2;
+  margin-top: 60px;
+  padding: 10px;
+  font-size: 3rem;
+  font-family: space Grotesk;
+}
+.showcase img {
+  width: 700px;
+  height: 400px;
+  flex: 2;
+}
+
+.products {
+  background-color: #0b132b;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.9;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.pro {
+  color: white;
+  font-size: 2.5rem;
+  text-align: center;
+  background-color: #0b132b;
+}
+.products img {
+  width: 300px;
+  height: 250px;
+  margin: 50px;
+  margin-top: -20px;
+}
+.items {
+  flex: 1;
+  height: 300px;
+  width: 350px;
+}
+.items h2 {
+  color: white;
+  margin-left: 100px;
+}
+.quote {
+  font-size: 2rem;
+  text-align: center;
+  font-style: italic;
+  background-color: white;
+  color: #0e1428;
+  height: 100px;
+  width: 100vw;
+  box-shadow: 0 0 4px #0e1428;
+  font-weight: bolder;
+}
+
+footer {
+  height: 200px;
+}
+
+.social {
+  text-align: center;
+  font-size: 2rem;
+}
